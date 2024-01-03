@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    background: linear-gradient(rgb(0, 0, 0), purple);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background: linear-gradient(rgb(81, 0, 255), rgb(4, 0, 0));
+    /* color: rgb(0, 0, 0); */
+    /* border: 2px solid black; */
+    /* border-radius: 20px; */
+}
+
+nav ul li {
+    padding: 0 12px;
+    color: white;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    /* color: white; */
+    cursor: pointer;
+}
+
+.brand img {
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+
+
+.container2 {
+    min-height: 70vh;
+    /* background-color: black; */
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    /* display: flex; */
+    margin: 23px auto;
+    width: 70%;
+    padding: 34px;
+    background: linear-gradient(rgb(0, 0, 0), rgb(81, 0, 255));
+    /* background-image: url('bg.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    border: 2px solid red;
+    border-radius: 20px;
+    /* borde */
+    /* z-index: -3; */
+    /* opacity:0.4; */
+
+}
+
+.aboutInfo {
+    margin-top: 20px;
+    /* border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px ; */
+    font-family: 'Varela Round', sans-serif;
+}
+
+.contactForm {
+    text-align: center;
+}
+
+#form {
+    text-align: center;
+    font-weight: bolder;
+    /* border: 1px solid black; */
+}
+
+#form p {
+    font-size: small;
+    font-weight: lighter;
+}
+
+#form input {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 40px;
+    text-align: center;
+    /* background-color: rgb(244, 144, 244);
+    color: blue; */
+
+}
+
+textarea {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(100, 98, 276);
+    border-radius: 28px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: rgb(84, 76, 246);
+    cursor: pointer;
+}
+
+.bottom {
+    position: sticky;
+    bottom: 0;
+    height: 55px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgb(81, 0, 255), rgb(4, 0, 0));
+    /* background-image: url('bottom.gif'); */
+    /* background-size:100% 125px; */
+    /* object-fit: cover; */
+    /* background-repeat: round; */
+    /* background-size: cover; */
+}
+
+.bottom a {
+    text-decoration: none;
+    color: white;
+}
